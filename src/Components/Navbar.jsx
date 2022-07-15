@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { HiOutlineSearchCircle } from "react-icons/hi";
-import { BiBorderRadius, BiMoviePlay } from "react-icons/bi";
+import { BiSearchAlt2, BiMoviePlay } from "react-icons/bi";
 
 export default function Navbar() {
   return (
@@ -16,7 +15,7 @@ export default function Navbar() {
       <form>
         <input type="text" placeholder="Busque um Filme" />
         <button type="submit">
-          <HiOutlineSearchCircle />
+          <BiSearchAlt2 />
         </button>
       </form>
     </nav>
