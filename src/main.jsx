@@ -7,7 +7,7 @@ import Home from "./Pages/Home";
 import Movie from "./Pages/Movie";
 import Search from "./Pages/Search";
 
-import "./index.css";
+import "./Styles/index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
