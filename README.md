@@ -1,10 +1,9 @@
 # Biblioteca_de_Filmes
  Projeto de uma biblioteca de filmes.
- 
- bibliotecaMovieLib.surge.sh
+
+ https://biblioteca-de-filmes.vercel.app/
  
  Projeto criando com a Ferramenta  Vite.
  https://vitejs.dev/
- 
  
  utilizado "React-Router-Dom" , "React-icons", API - da "The Movie Database (TMDB)"
