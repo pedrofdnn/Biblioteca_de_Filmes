@@ -9,7 +9,7 @@ import {
   BsFillFileEarmarkTextFill,
 } from "react-icons/bs";
 
-const moviesURL = import.meta.env.VITE_API;
+const moviesURLs = import.meta.env.VITE_API;
 const apiKey = import.meta.env.VITE_API_KEY;
 
 export default function Movie() {
@@ -30,7 +30,7 @@ export default function Movie() {
   };
 
   useEffect(() => {
-    const movieUrl = `${moviesURL}${id}?${apiKey}&language=pt-BR`;
+    const movieUrl = `${moviesURLs}${id}?${apiKey}&language=pt-BR`;
     getMovie(movieUrl);
   }, []);
 
